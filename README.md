@@ -27,3 +27,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## Mar.18
+```
+<router-link :to="/path">
+"path" 경로로 이동(주소창 경로 변경)
+```

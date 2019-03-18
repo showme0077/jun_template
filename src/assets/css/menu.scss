@@ -1,0 +1,22 @@
+
+
+// TOP MENU
+#menu_top {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 0;
+  width: 100%;
+  margin: 0 auto;
+  & > li {
+    font-size: 16px;
+    display: inline-block;
+    &:last-child {
+      margin-right: 0;
+    }
+    & > a:hover {
+      color: #fc6667;
+    }
+  }
+}
+
+// TOP MENU END
