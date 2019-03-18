@@ -4,7 +4,7 @@
             v-for="(item, index) in menu"
             :key="index"
             v-bind:style="{width: width_size}">
-            <router-link :to="item.path">{{item.name}}</router-link>
+            <router-link :to="item.path" exact-active-class="menu_selected" >{{item.name}}</router-link>
         </li>
     </ul>
 </template>
@@ -33,7 +33,3 @@
         }
     }
 </script>
-
-<style lang="scss" scoped>
-
-</style>
